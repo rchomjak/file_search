@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/a/CLionProjects/file_search/FileHandlerAbstract.cpp" "/home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles/file_search.dir/FileHandlerAbstract.cpp.o"
+  "/home/a/CLionProjects/file_search/MyHandler.cpp" "/home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles/file_search.dir/MyHandler.cpp.o"
+  "/home/a/CLionProjects/file_search/dfs.cpp" "/home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles/file_search.dir/dfs.cpp.o"
   "/home/a/CLionProjects/file_search/main.cpp" "/home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles/file_search.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

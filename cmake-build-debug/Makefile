@@ -143,6 +143,87 @@ file_search/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/build
 .PHONY : file_search/fast
 
+FileHandlerAbstract.o: FileHandlerAbstract.cpp.o
+
+.PHONY : FileHandlerAbstract.o
+
+# target to build an object file
+FileHandlerAbstract.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/FileHandlerAbstract.cpp.o
+.PHONY : FileHandlerAbstract.cpp.o
+
+FileHandlerAbstract.i: FileHandlerAbstract.cpp.i
+
+.PHONY : FileHandlerAbstract.i
+
+# target to preprocess a source file
+FileHandlerAbstract.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/FileHandlerAbstract.cpp.i
+.PHONY : FileHandlerAbstract.cpp.i
+
+FileHandlerAbstract.s: FileHandlerAbstract.cpp.s
+
+.PHONY : FileHandlerAbstract.s
+
+# target to generate assembly for a file
+FileHandlerAbstract.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/FileHandlerAbstract.cpp.s
+.PHONY : FileHandlerAbstract.cpp.s
+
+MyHandler.o: MyHandler.cpp.o
+
+.PHONY : MyHandler.o
+
+# target to build an object file
+MyHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/MyHandler.cpp.o
+.PHONY : MyHandler.cpp.o
+
+MyHandler.i: MyHandler.cpp.i
+
+.PHONY : MyHandler.i
+
+# target to preprocess a source file
+MyHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/MyHandler.cpp.i
+.PHONY : MyHandler.cpp.i
+
+MyHandler.s: MyHandler.cpp.s
+
+.PHONY : MyHandler.s
+
+# target to generate assembly for a file
+MyHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/MyHandler.cpp.s
+.PHONY : MyHandler.cpp.s
+
+dfs.o: dfs.cpp.o
+
+.PHONY : dfs.o
+
+# target to build an object file
+dfs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/dfs.cpp.o
+.PHONY : dfs.cpp.o
+
+dfs.i: dfs.cpp.i
+
+.PHONY : dfs.i
+
+# target to preprocess a source file
+dfs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/dfs.cpp.i
+.PHONY : dfs.cpp.i
+
+dfs.s: dfs.cpp.s
+
+.PHONY : dfs.s
+
+# target to generate assembly for a file
+dfs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/dfs.cpp.s
+.PHONY : dfs.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +260,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... file_search"
+	@echo "... FileHandlerAbstract.o"
+	@echo "... FileHandlerAbstract.i"
+	@echo "... FileHandlerAbstract.s"
+	@echo "... MyHandler.o"
+	@echo "... MyHandler.i"
+	@echo "... MyHandler.s"
+	@echo "... dfs.o"
+	@echo "... dfs.i"
+	@echo "... dfs.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

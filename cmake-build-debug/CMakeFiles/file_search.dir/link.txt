@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/file_search.dir/main.cpp.o  -o file_search 
+/usr/bin/c++  -g   CMakeFiles/file_search.dir/main.cpp.o CMakeFiles/file_search.dir/FileHandlerAbstract.cpp.o CMakeFiles/file_search.dir/dfs.cpp.o CMakeFiles/file_search.dir/MyHandler.cpp.o  -o file_search 

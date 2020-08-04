@@ -84,6 +84,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/a/CLionProjects/file_search/FileHandlerAbstract.cpp">
+			<Option target="file_search"/>
+		</Unit>
+		<Unit filename="/home/a/CLionProjects/file_search/FileHandlerAbstract.h">
+			<Option target="file_search"/>
+		</Unit>
+		<Unit filename="/home/a/CLionProjects/file_search/MyHandler.cpp">
+			<Option target="file_search"/>
+		</Unit>
+		<Unit filename="/home/a/CLionProjects/file_search/MyHandler.h">
+			<Option target="file_search"/>
+		</Unit>
+		<Unit filename="/home/a/CLionProjects/file_search/dfs.cpp">
+			<Option target="file_search"/>
+		</Unit>
+		<Unit filename="/home/a/CLionProjects/file_search/dfs.h">
+			<Option target="file_search"/>
+		</Unit>
 		<Unit filename="/home/a/CLionProjects/file_search/main.cpp">
 			<Option target="file_search"/>
 		</Unit>

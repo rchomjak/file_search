@@ -94,12 +94,12 @@ clean: CMakeFiles/file_search.dir/clean
 CMakeFiles/file_search.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target file_search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target file_search"
 .PHONY : CMakeFiles/file_search.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/file_search.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/file_search.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/file_search.dir/rule

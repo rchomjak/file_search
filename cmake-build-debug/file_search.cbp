@@ -87,6 +87,12 @@
 		<Unit filename="/home/a/CLionProjects/file_search/FileHandlerAbstract.h">
 			<Option target="file_search"/>
 		</Unit>
+		<Unit filename="/home/a/CLionProjects/file_search/FilePrinter.cpp">
+			<Option target="file_search"/>
+		</Unit>
+		<Unit filename="/home/a/CLionProjects/file_search/FilePrinter.h">
+			<Option target="file_search"/>
+		</Unit>
 		<Unit filename="/home/a/CLionProjects/file_search/MyHandler.cpp">
 			<Option target="file_search"/>
 		</Unit>

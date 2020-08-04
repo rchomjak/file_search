@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/file_search.dir/FilePrinter.cpp.o"
   "CMakeFiles/file_search.dir/MyHandler.cpp.o"
   "CMakeFiles/file_search.dir/dfs.cpp.o"
   "CMakeFiles/file_search.dir/main.cpp.o"

@@ -2,19 +2,19 @@
 
 #include "dfs.h"
 #include "MyHandler.h"
+#include "FilePrinter.h"
 
 
+int main(int argc, char **argv) {
 
+    if (argc !=2) {
+        return 2;
+    }
 
+    MyHandler my_handler = MyHandler(std::string(argv[1]));
+    dfs my_dfs = dfs(my_handler);
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+    FilePrinter::printTree(my_handler);
 
-    MyHandler x = MyHandler(".");
-    FileHandlerAbstract *handler;
-    *handler = static_cast<MyHandler>(x);
-
-    dfs(handler);
-
-    return 0;
+    return EXIT_SUCCESS;
 }

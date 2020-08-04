@@ -14,14 +14,14 @@ class FileHandlerAbstract {
 
 public:
     std::string start_path;
-    FileHandlerAbstract(std::string root_path): start_path(std::move(root_path)){};
-    ~FileHandlerAbstract();
+
+public:
+    FileHandlerAbstract(std::string rootPath) : start_path(rootPath) {};
+    ~FileHandlerAbstract() {};
 
 
-    virtual void directory(fs::directory_entry &file) = 0;
-    virtual void regular_file(fs::directory_entry &file) = 0;
+    virtual void file(const fs::directory_entry &file) = 0;
 };
-
 
 
 #endif //FILE_SEARCH_FILEHANDLERABSTRACT_H

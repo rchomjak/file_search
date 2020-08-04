@@ -143,6 +143,33 @@ file_search/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/build
 .PHONY : file_search/fast
 
+FilePrinter.o: FilePrinter.cpp.o
+
+.PHONY : FilePrinter.o
+
+# target to build an object file
+FilePrinter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/FilePrinter.cpp.o
+.PHONY : FilePrinter.cpp.o
+
+FilePrinter.i: FilePrinter.cpp.i
+
+.PHONY : FilePrinter.i
+
+# target to preprocess a source file
+FilePrinter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/FilePrinter.cpp.i
+.PHONY : FilePrinter.cpp.i
+
+FilePrinter.s: FilePrinter.cpp.s
+
+.PHONY : FilePrinter.s
+
+# target to generate assembly for a file
+FilePrinter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/FilePrinter.cpp.s
+.PHONY : FilePrinter.cpp.s
+
 MyHandler.o: MyHandler.cpp.o
 
 .PHONY : MyHandler.o
@@ -233,6 +260,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... file_search"
+	@echo "... FilePrinter.o"
+	@echo "... FilePrinter.i"
+	@echo "... FilePrinter.s"
 	@echo "... MyHandler.o"
 	@echo "... MyHandler.i"
 	@echo "... MyHandler.s"

@@ -6,22 +6,31 @@
 #define FILE_SEARCH_DFS_H
 
 #include "FileHandlerAbstract.h"
+#include "MyHandler.h"
 
 class dfs {
 
 public:
-    dfs(FileHandlerAbstract &in_handler):file_handler(in_handler){
-        this->explore((fs::directory_entry(in_handler.start_path)));
+    explicit dfs(FileHandlerAbstract &in_handler) : my_file_handler(dynamic_cast<MyHandler &>(in_handler)) {
+        try {
+            this->explore((fs::directory_entry(in_handler.start_path)));
+        } catch (fs::filesystem_error &error) {
+            ;
+        }
     };
-    ~dfs(){};
+
+    ~dfs() {};
 private:
 
     void pop(const fs::directory_entry &file);
+
     void pre(const fs::directory_entry &file);
+
     void explore(const fs::directory_entry &file);
+
     void file_handling(const FileHandlerAbstract &func);
 
-    const FileHandlerAbstract &file_handler;
+    MyHandler &my_file_handler;
 
 };
 

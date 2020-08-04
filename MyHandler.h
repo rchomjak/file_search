@@ -9,23 +9,23 @@
 
 #include <filesystem>
 #include <map>
+#include <utility>
 
 namespace fs = std::filesystem;
 
 
-class MyHandler: public FileHandlerAbstract {
+class MyHandler : public FileHandlerAbstract {
 
 public:
-    std::map<std::int32_t , std::string> file_path_pos;
+    explicit MyHandler(std::string rootPath) : FileHandlerAbstract(rootPath) {};
+
+    virtual ~MyHandler() = default;
+
     std::int64_t deep_level = 0;
+    std::vector<std::pair<std::int32_t, std::string>> file_path_pos;
 
 public:
-    MyHandler(const std::string rootPath) : FileHandlerAbstract(rootPath) {};
-    ~MyHandler();
-
-public:
-    void directory(fs::directory_entry &file) override;
-    void regular_file(fs::directory_entry &file) override;
+    virtual void file(const fs::directory_entry &file) override;
 
 
 };

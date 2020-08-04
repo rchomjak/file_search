@@ -143,33 +143,6 @@ file_search/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/build
 .PHONY : file_search/fast
 
-FileHandlerAbstract.o: FileHandlerAbstract.cpp.o
-
-.PHONY : FileHandlerAbstract.o
-
-# target to build an object file
-FileHandlerAbstract.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/FileHandlerAbstract.cpp.o
-.PHONY : FileHandlerAbstract.cpp.o
-
-FileHandlerAbstract.i: FileHandlerAbstract.cpp.i
-
-.PHONY : FileHandlerAbstract.i
-
-# target to preprocess a source file
-FileHandlerAbstract.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/FileHandlerAbstract.cpp.i
-.PHONY : FileHandlerAbstract.cpp.i
-
-FileHandlerAbstract.s: FileHandlerAbstract.cpp.s
-
-.PHONY : FileHandlerAbstract.s
-
-# target to generate assembly for a file
-FileHandlerAbstract.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_search.dir/build.make CMakeFiles/file_search.dir/FileHandlerAbstract.cpp.s
-.PHONY : FileHandlerAbstract.cpp.s
-
 MyHandler.o: MyHandler.cpp.o
 
 .PHONY : MyHandler.o
@@ -260,9 +233,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... file_search"
-	@echo "... FileHandlerAbstract.o"
-	@echo "... FileHandlerAbstract.i"
-	@echo "... FileHandlerAbstract.s"
 	@echo "... MyHandler.o"
 	@echo "... MyHandler.i"
 	@echo "... MyHandler.s"

@@ -84,9 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/a/CLionProjects/file_search/FileHandlerAbstract.cpp">
-			<Option target="file_search"/>
-		</Unit>
 		<Unit filename="/home/a/CLionProjects/file_search/FileHandlerAbstract.h">
 			<Option target="file_search"/>
 		</Unit>

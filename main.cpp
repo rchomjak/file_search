@@ -14,7 +14,7 @@ int main() {
     FileHandlerAbstract *handler;
     *handler = static_cast<MyHandler>(x);
 
-    //dfs(handler);
+    dfs(handler);
 
     return 0;
 }

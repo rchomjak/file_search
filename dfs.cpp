@@ -33,7 +33,11 @@ void dfs::explore(const fs::directory_entry &in_file) {
 
 }
 
-void dfs::file_handling(const FileHandlerAbstract &func) {
-
+void dfs::execute() {
+    try {
+        this->explore((fs::directory_entry(this->my_file_handler.start_path)));
+    } catch (fs::filesystem_error &error) {
+        ;
+    }
 
 }

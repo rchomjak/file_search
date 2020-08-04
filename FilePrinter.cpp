@@ -16,8 +16,8 @@ void FilePrinter::printTree(MyHandler &in_handler) {
               [](auto &x1, auto &x2) -> int { return x1.first < x2.first; });
 
     for (auto &key_val: in_handler.file_path_pos) {
-        auto key = key_val.first;
-        auto file_path = key_val.second;
+        auto &key = key_val.first;
+        auto &file_path = key_val.second;
 
         for (size_t i = 0; i < key; i++) {
             std::cout << " ";

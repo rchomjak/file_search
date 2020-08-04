@@ -3,6 +3,7 @@
 //
 
 #include <filesystem>
+#include <iostream>
 #include "dfs.h"
 
 namespace fs=std::filesystem;
@@ -14,12 +15,13 @@ void dfs::pop(const fs::directory_entry &file) {}
 void dfs::explore(const fs::directory_entry &in_file) {
 
     this->pre(in_file);
-
-    for (auto& file: fs::directorahay_iterator(in_file)) {
+    std::cout<< in_file <<std::endl;
+    for (auto& file: fs::directory_iterator(in_file)) {
         if (file.is_regular_file()) {
-            handler
+            std::cout<< file_handler.start_path<<std::endl;
         } else if (file.is_directory()){
-            explore(file);
+            std::cout<< file_handler.start_path<<std::endl;
+            //explore(file);
         } else {
             //Not supported file type
             continue;

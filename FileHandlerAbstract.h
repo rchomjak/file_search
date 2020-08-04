@@ -13,9 +13,10 @@ namespace fs = std::filesystem;
 class FileHandlerAbstract {
 
 public:
-
-    FileHandlerAbstract(std::string root_path): start_path(std::move(root_path)){};
     std::string start_path;
+    FileHandlerAbstract(std::string root_path): start_path(std::move(root_path)){};
+    ~FileHandlerAbstract();
+
 
     virtual void directory(fs::directory_entry &file) = 0;
     virtual void regular_file(fs::directory_entry &file) = 0;

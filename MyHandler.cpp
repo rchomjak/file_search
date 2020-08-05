@@ -8,9 +8,7 @@
 
 
 void MyHandler::file(const fs::directory_entry &file) {
-    //std::cout<< "File" << file.path().string() << std::endl;
     this->file_path_pos.emplace_back(std::pair(this->deep_level, file.path().string()));
-
 }
 
 

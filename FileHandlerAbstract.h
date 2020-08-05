@@ -17,7 +17,7 @@ public:
 
 public:
     FileHandlerAbstract(std::string rootPath) : start_path(rootPath) {};
-    ~FileHandlerAbstract() {};
+    virtual ~FileHandlerAbstract() {};
 
 
     virtual void file(const fs::directory_entry &file) = 0;

@@ -90,18 +90,18 @@ CMakeFiles/file_search.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/file_search.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/a/CLionProjects/file_search/main.cpp -o CMakeFiles/file_search.dir/main.cpp.s
 
-CMakeFiles/file_search.dir/dfs.cpp.o: CMakeFiles/file_search.dir/flags.make
-CMakeFiles/file_search.dir/dfs.cpp.o: ../dfs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/file_search.dir/dfs.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/file_search.dir/dfs.cpp.o -c /home/a/CLionProjects/file_search/dfs.cpp
+CMakeFiles/file_search.dir/TopoSort.cpp.o: CMakeFiles/file_search.dir/flags.make
+CMakeFiles/file_search.dir/TopoSort.cpp.o: ../TopoSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/file_search.dir/TopoSort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/file_search.dir/TopoSort.cpp.o -c /home/a/CLionProjects/file_search/TopoSort.cpp
 
-CMakeFiles/file_search.dir/dfs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/file_search.dir/dfs.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/a/CLionProjects/file_search/dfs.cpp > CMakeFiles/file_search.dir/dfs.cpp.i
+CMakeFiles/file_search.dir/TopoSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/file_search.dir/TopoSort.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/a/CLionProjects/file_search/TopoSort.cpp > CMakeFiles/file_search.dir/TopoSort.cpp.i
 
-CMakeFiles/file_search.dir/dfs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/file_search.dir/dfs.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/a/CLionProjects/file_search/dfs.cpp -o CMakeFiles/file_search.dir/dfs.cpp.s
+CMakeFiles/file_search.dir/TopoSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/file_search.dir/TopoSort.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/a/CLionProjects/file_search/TopoSort.cpp -o CMakeFiles/file_search.dir/TopoSort.cpp.s
 
 CMakeFiles/file_search.dir/MyHandler.cpp.o: CMakeFiles/file_search.dir/flags.make
 CMakeFiles/file_search.dir/MyHandler.cpp.o: ../MyHandler.cpp
@@ -132,7 +132,7 @@ CMakeFiles/file_search.dir/FilePrinter.cpp.s: cmake_force
 # Object files for target file_search
 file_search_OBJECTS = \
 "CMakeFiles/file_search.dir/main.cpp.o" \
-"CMakeFiles/file_search.dir/dfs.cpp.o" \
+"CMakeFiles/file_search.dir/TopoSort.cpp.o" \
 "CMakeFiles/file_search.dir/MyHandler.cpp.o" \
 "CMakeFiles/file_search.dir/FilePrinter.cpp.o"
 
@@ -140,7 +140,7 @@ file_search_OBJECTS = \
 file_search_EXTERNAL_OBJECTS =
 
 file_search: CMakeFiles/file_search.dir/main.cpp.o
-file_search: CMakeFiles/file_search.dir/dfs.cpp.o
+file_search: CMakeFiles/file_search.dir/TopoSort.cpp.o
 file_search: CMakeFiles/file_search.dir/MyHandler.cpp.o
 file_search: CMakeFiles/file_search.dir/FilePrinter.cpp.o
 file_search: CMakeFiles/file_search.dir/build.make

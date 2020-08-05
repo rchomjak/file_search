@@ -8,11 +8,9 @@
 #include "FileHandlerAbstract.h"
 #include "MyHandler.h"
 
-class FilePrinter {
+namespace FilePrinter{
 
-public:
-    static void printTree(MyHandler &in_handler);
-
+   void printTree(MyHandler &in_handler);
 };
 
 

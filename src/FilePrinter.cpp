@@ -8,14 +8,14 @@
 #include "FilePrinter.h"
 
 
-void FilePrinter::printTree(MyHandler &in_handler) {
+void FilePrinter::printTree(const std::shared_ptr<MyHandler>& in_handler) {
 
     std::int64_t current_deep = -1;
 
-    std::sort(in_handler.file_path_pos.begin(), in_handler.file_path_pos.end(),
+    std::sort(in_handler->file_path_pos.begin(), in_handler->file_path_pos.end(),
               [](auto &x1, auto &x2) -> int { return x1.first < x2.first; });
 
-    for (auto &key_val: in_handler.file_path_pos) {
+    for (auto &key_val: in_handler->file_path_pos) {
         auto &key = key_val.first;
         auto &file_path = key_val.second;
 

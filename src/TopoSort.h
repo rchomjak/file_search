@@ -15,18 +15,18 @@ public:
 
     void execute();
 
-    explicit TopoSort(FileHandlerAbstract &in_handler) : my_file_handler(dynamic_cast<MyHandler &>(in_handler)) {
-
-    };
+    explicit TopoSort(const std::shared_ptr<FileHandlerAbstract>& in_handler)
+    : my_file_handler(dynamic_cast<MyHandler *>(in_handler.get())) {};
 
     ~TopoSort() override {};
+
 private:
 
     void post() override;
     void pre() override;
     void explore(const fs::directory_entry &in_file) override;
 
-    MyHandler &my_file_handler;
+    MyHandler *my_file_handler;
 
 };
 

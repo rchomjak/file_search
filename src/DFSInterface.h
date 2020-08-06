@@ -8,7 +8,7 @@
 #include <filesystem>
 namespace fs = std::filesystem;
 
-class DFSInterface {
+class DFSInterface:public std::enable_shared_from_this<DFSInterface> {
 
 public:
     virtual ~DFSInterface() {};

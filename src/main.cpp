@@ -11,7 +11,8 @@ int main(int argc, char **argv) {
         return EXIT_FAILURE;
     }
 
-    MyHandler my_handler = MyHandler(std::string(argv[1]));
+    auto my_handler = std::make_shared<MyHandler>(std::string(argv[1]));
+
     TopoSort my_dfs = TopoSort(my_handler);
     my_dfs.execute();
 

@@ -10,7 +10,7 @@
 
 namespace FilePrinter{
 
-   void printTree(MyHandler &in_handler);
+   void printTree(const std::shared_ptr<MyHandler>& in_handler);
 };
 
 

@@ -11,10 +11,10 @@ int main(int argc, char **argv) {
         return EXIT_FAILURE;
     }
 
-    auto my_handler = std::make_shared<MyHandler>(std::string(argv[1]));
+    std::shared_ptr my_handler = std::make_shared<MyHandler>(std::string(argv[1]));
 
-    TopoSort my_dfs = TopoSort(my_handler);
-    my_dfs.execute();
+    std::unique_ptr my_dfs = std::make_unique<TopoSort>(my_handler);
+    my_dfs->execute();
 
     FilePrinter::printTree(my_handler);
 

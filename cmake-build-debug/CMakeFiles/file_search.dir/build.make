@@ -90,17 +90,62 @@ CMakeFiles/file_search.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/file_search.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/a/CLionProjects/file_search/main.cpp -o CMakeFiles/file_search.dir/main.cpp.s
 
+CMakeFiles/file_search.dir/TopoSort.cpp.o: CMakeFiles/file_search.dir/flags.make
+CMakeFiles/file_search.dir/TopoSort.cpp.o: ../TopoSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/file_search.dir/TopoSort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/file_search.dir/TopoSort.cpp.o -c /home/a/CLionProjects/file_search/TopoSort.cpp
+
+CMakeFiles/file_search.dir/TopoSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/file_search.dir/TopoSort.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/a/CLionProjects/file_search/TopoSort.cpp > CMakeFiles/file_search.dir/TopoSort.cpp.i
+
+CMakeFiles/file_search.dir/TopoSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/file_search.dir/TopoSort.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/a/CLionProjects/file_search/TopoSort.cpp -o CMakeFiles/file_search.dir/TopoSort.cpp.s
+
+CMakeFiles/file_search.dir/MyHandler.cpp.o: CMakeFiles/file_search.dir/flags.make
+CMakeFiles/file_search.dir/MyHandler.cpp.o: ../MyHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/file_search.dir/MyHandler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/file_search.dir/MyHandler.cpp.o -c /home/a/CLionProjects/file_search/MyHandler.cpp
+
+CMakeFiles/file_search.dir/MyHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/file_search.dir/MyHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/a/CLionProjects/file_search/MyHandler.cpp > CMakeFiles/file_search.dir/MyHandler.cpp.i
+
+CMakeFiles/file_search.dir/MyHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/file_search.dir/MyHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/a/CLionProjects/file_search/MyHandler.cpp -o CMakeFiles/file_search.dir/MyHandler.cpp.s
+
+CMakeFiles/file_search.dir/FilePrinter.cpp.o: CMakeFiles/file_search.dir/flags.make
+CMakeFiles/file_search.dir/FilePrinter.cpp.o: ../FilePrinter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/file_search.dir/FilePrinter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/file_search.dir/FilePrinter.cpp.o -c /home/a/CLionProjects/file_search/FilePrinter.cpp
+
+CMakeFiles/file_search.dir/FilePrinter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/file_search.dir/FilePrinter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/a/CLionProjects/file_search/FilePrinter.cpp > CMakeFiles/file_search.dir/FilePrinter.cpp.i
+
+CMakeFiles/file_search.dir/FilePrinter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/file_search.dir/FilePrinter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/a/CLionProjects/file_search/FilePrinter.cpp -o CMakeFiles/file_search.dir/FilePrinter.cpp.s
+
 # Object files for target file_search
 file_search_OBJECTS = \
-"CMakeFiles/file_search.dir/main.cpp.o"
+"CMakeFiles/file_search.dir/main.cpp.o" \
+"CMakeFiles/file_search.dir/TopoSort.cpp.o" \
+"CMakeFiles/file_search.dir/MyHandler.cpp.o" \
+"CMakeFiles/file_search.dir/FilePrinter.cpp.o"
 
 # External object files for target file_search
 file_search_EXTERNAL_OBJECTS =
 
 file_search: CMakeFiles/file_search.dir/main.cpp.o
+file_search: CMakeFiles/file_search.dir/TopoSort.cpp.o
+file_search: CMakeFiles/file_search.dir/MyHandler.cpp.o
+file_search: CMakeFiles/file_search.dir/FilePrinter.cpp.o
 file_search: CMakeFiles/file_search.dir/build.make
 file_search: CMakeFiles/file_search.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable file_search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/a/CLionProjects/file_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable file_search"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/file_search.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

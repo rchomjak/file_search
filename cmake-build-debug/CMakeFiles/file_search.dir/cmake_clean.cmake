@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/file_search.dir/FilePrinter.cpp.o"
+  "CMakeFiles/file_search.dir/MyHandler.cpp.o"
+  "CMakeFiles/file_search.dir/TopoSort.cpp.o"
   "CMakeFiles/file_search.dir/main.cpp.o"
   "file_search"
   "file_search.pdb"
